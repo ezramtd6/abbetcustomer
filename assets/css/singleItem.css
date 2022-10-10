@@ -1,0 +1,114 @@
+ .slides{
+    border-radius: 0.5rem !important;
+    height: 50%;  
+}
+  
+.slide-show{
+    padding: 0px !important;
+    margin-left: 1.5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.single-item-name{
+
+    font-size: 2rem;
+}
+.xap{
+    background: white !important;
+}
+.single-item-disc{
+    font-size: 0.9rem;
+    text-align: justify !important;
+}
+
+.single-item-price{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.single-item-rate-count{
+    font-size: 0.9rem;
+    color: #488dc7;
+}
+
+.single-item-cart-btn{
+    border: none;
+    color: #488dc7;
+    background-color: white;
+    font-size: 1.3rem;
+    margin-left: 0.5rem;
+}
+
+.single-item-top{
+    box-shadow: 0 0px 0px 0 rgba(29, 28, 28, 0.2), 0 6px 20px 0 rgba(49, 49, 49, 0.19);
+}
+
+.comment-con{
+    overflow-y: scroll;
+    height: 80vh;
+}
+  
+.post {
+    margin: 20px;
+    padding: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+    background-color: #488dc7;
+    color: white;  
+    border: none; 
+    border-radius: 0.3rem;
+    width: 50%
+}
+
+.comments {
+    margin-top: 5%;
+    margin-left: 20px
+}
+
+.comment {
+   
+    background-color: rgba(234, 236, 255, 0.973);
+    float: left;
+    border-radius: 5px;
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-top: 10px
+}
+
+.comment h4,
+.comment span
+ {
+    display: inline
+}
+
+.comment p,
+.comment span {
+    color:black;
+}
+
+.comment-label {
+    color: black;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+#align-form {
+    margin-top: 20px
+}
+
+.form-group p a {
+    color: white
+}
+
+.comment-input {
+    background-color: rgba(234, 236, 255, 0.973);
+    border-radius: 12px
+}
+
+.comment-form {
+    background-color: rgba(234, 236, 255, 0.973);
+    border-radius: 5px;
+    padding: 20px
+}

@@ -1,0 +1,47 @@
+.cartRow
+{
+   background-color: white;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   height: 15rem;
+   border-radius: 0.3rem; 
+   margin-right: 10rem !important;
+   margin-left: 10rem !important;
+
+}
+.firstRow{
+    margin-top: 2rem !important;
+
+}
+.title{
+
+    margin-left: 10rem !important;
+    
+}
+.inputField
+{
+    border: none;
+    width: 3rem;
+    background-color: white;
+
+}
+.buyBut
+{
+    border-radius: 0.8rem;
+    width: 10rem;
+    height: 3rem;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: #f7a943;
+    border: 1px #f7a943 solid;
+}
+
+.cartContainer{
+
+    background-color: white !important;
+    border-radius: 0.5rem;
+}
+
+.quantity{
+
+    background-color: grey;
+}

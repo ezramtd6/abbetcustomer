@@ -1,0 +1,377 @@
+body{
+
+    font-family: 'Roboto Slab', serif;
+    background-color: lightblue;
+
+}
+
+.navbar-brand{
+
+    font-size: 2rem;
+    font-family: 'Lobster', cursive;
+    color: grey !important;
+}
+
+.navbar{
+
+    background-color: #131a22 !important;
+}
+
+.nav-link{
+
+    color: white !important;
+}
+
+.searchBar{
+
+    height: 2.5rem;
+    width: 40rem !important;
+    border-bottom-right-radius: 0px ;
+    border-top-right-radius: 0px ;
+
+    border-bottom-left-radius: 0px ;
+    border-top-left-radius: 0px ;
+  
+}
+
+.catagory-btn{
+
+    border-bottom-right-radius: 0px !important;
+    border-top-right-radius: 0px !important ;
+    background-color: rgb(163, 163, 163) !important;
+    color: black !important;
+
+}
+
+.profile-btn{
+
+    border-bottom-right-radius: 0px !important;
+    border-top-right-radius: 0px !important ;
+    border-color: #131a22 !important;
+    background-color: #131a22 !important;
+    color: white !important;
+
+}
+
+.proflie{
+    background-color: #131a22 !important;
+   
+}
+
+.proflie a:hover{
+    background-color: #374e68 !important;
+   
+}
+
+
+.proflie a{
+    color: white !important;
+}
+
+
+.searchButton{
+
+    height: 2.5rem !important;
+    background-color: #f7a943;
+    border-bottom-left-radius: 0px ;
+    border-top-left-radius: 0px ;
+    border: 1px #f7a943 solid;
+    
+}
+
+.brandIcon{
+
+    color: white;
+}
+
+.menuIcon{
+
+    font-size: 1.5rem;
+}
+
+.searchIcon{
+
+    color: grey;
+}
+
+.userIcon{
+
+    font-size: 2.5rem;
+}
+
+.userLoginLabel{
+
+    float: right;
+    font-size: 0.7rem;
+}
+
+.loginSubtitle{
+
+    font-size: 1rem;
+}
+
+.sellerIcon{
+
+    font-size: 1rem;
+}
+
+.cartIcon{
+
+    font-size: 2rem;
+}
+.sildeshowIcons{
+
+    font-size: 3rem !important;
+
+}
+
+.d-block{
+
+    width: 85rem;
+    height: 30rem;
+}
+.babi{
+    height: 2.5rem;
+    background-color: #777777 !important;
+    color:white !important;
+    border-top-left-radius: 0.3rem;
+    border-bottom-left-radius: 0.3rem;
+}
+.dropdown-item1{
+    background-color: black !important;
+}
+.card{
+
+    background-color:white;
+    border: none;
+    padding: 10px;
+}
+
+.card-title>a{
+
+    font-size: 1rem;
+    color: black !important;
+    font-weight: bold;
+}
+
+.shopNowLink{
+
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.home-title{
+
+    font-size: 2rem;
+    margin-top: 2rem;
+    font-weight: bold;
+}
+
+.disc{
+
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.jumbotron{
+
+    background-color: white;
+}
+
+.seeAllButton{
+
+    border-radius: 0.8rem;
+    width: 19rem;
+    height: 3rem;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: #f7a943;
+    border: 1px #f7a943 solid;
+}
+
+footer{
+
+    background-color: black;
+    color: white;
+}
+
+footer>ul>li>a{
+
+  text-decoration: none;
+  color: white;
+}
+
+.modal-content{
+    background-color:  rgba(255, 255, 255, 0);
+}
+
+.modal-dialog{
+    background-color:  rgba(255, 255, 255, 0);
+    border-radius: 1rem;
+}
+
+.main-section{
+	margin: 0 auto;
+	margin-top:100px;
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 0px;
+}
+.user-img{
+	margin-top:-50px;
+}
+.user-img img{
+	height: 100px;
+	width: 100px;
+}
+.user-name{
+	margin:10px 0px;
+}
+.user-name h1{
+	font-size:30px;
+	color:#676363;
+}
+.user-name button{
+	position: absolute;	
+	top:-50px;
+	right:20px;
+	font-size:30px;
+}
+.form-input button{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.link-part{
+
+    font-size: 0.9rem;
+	border-radius:0px 0px 5px 5px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-bottom:15px;
+    padding-top:7px;
+
+}
+
+#forgetPass{
+    font-size: 0.7rem;
+}
+.open-modal{
+	margin-top:100px !important;
+}
+
+#signup{
+
+    width: 50rem !important;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: white; /* Set a background color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding-left: 15px; /* Some padding */
+    padding-right: 15px;
+    border-radius: 10px; /* Rounded corners */
+    font-size: 2rem; 
+    font-weight: bold;
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
+  /* ...................................................Items.......................... */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+  
+:root{
+  --bg-shape-color:linear-gradient(120deg,  #f4f5ff, #f2f4f7) ;
+}
+
+.wrapper{
+  width:230px;
+  border-radius: 40px;
+  background-image: var(--bg-shape-color);
+  overflow: hidden;
+}
+.newxo{
+  text-decoration: none;
+}
+.shop-name{
+
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+
+
+.cartbutton svg {
+color: black;
+}
+.cartbutton{
+
+width: 30px;
+height: 30px;
+border-radius: 50%;
+}
+
+.neurobutton{
+  background-image: var(--bg-shape-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 3px 4px 5px 0px rgba(197, 197, 197, 0.1), inset 3px 6px 6px 5px rgba(78, 77, 77, 0.1), -2px -2px 8px 2px rgba(255,255,255,0.1), 2px 2px 6px 3px rgba(0,0,0,0.4);
+}
+
+.productImage {
+ 
+  
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.featureText{
+
+  font-size: 0.9rem;
+}
+
+.productSpecifications{
+
+  margin-left: 1rem;
+  margin-right: 1rem;
+  color: black;
+  margin-bottom: 1rem;
+
+}
+
+.item-discription{
+
+  font-size: 0.8rem;
+}
+
+
+
+.priceTag {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.priceTag span {
+  
+    color: #488dc7;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+
+.shop_view_items{
+
+  margin: 0px 3rem;
+}
